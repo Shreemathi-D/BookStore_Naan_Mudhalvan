@@ -1,39 +1,60 @@
-# build-full-stack-book-store-mern-app
-![full-stack-book-store-mern-project](/frontend/src/assets/github-cover.png)
+##Full-Stack Book Store Application
 
-## How to run this project:
+ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing an online book store. This project features a modern front-end, a robust back-end, and a connection to a database for persistent storage.
 
-### For Frontend 
-Follow the below steps to run the project: 
-- Firstly clone or unzip the project folder.
-* Go to the frontend directory by using the following command ``` cd frontend ```.
-* * create a **.env.local** file in the backend root directory as the same level where the **package.json** is located and keep the following environment variables there:
-```
->>> Stepup firebase app and configure the environment
+##Features
 
-VITE_API_KEY="AIzaSyCXvDIC4MPrkaMdeg_O2iij88wLpfj3qBA"
-VITE_Auth_Domain="book-store-mern-app.firebaseapp.com"
-VITE_PROJECT_ID="book-store-mern-app"
-VITE_STORAGE_BUCKET="book-store-mern-app.appspot.com"
-VITE_MESSAGING_SENDERID= "205632822247"
-VITE_APPID="1:205632822247:web:b0db0ec66bf6de0bbb3b42"
-```
-+ Then run `` npm install `` commend to install node dependencies.
-- Finally, to run the project, use ``npm run dev`` command.
+ User authentication and authorization.
+ Add, edit, and delete books.
+ Ordering books.
+ Browse and search for books.
+ Responsive and user-friendly design.
+
+##Prerequisites
+
+[Node.js](https://nodejs.org/)
+ [MongoDB](https://www.mongodb.com/)
+
+##Backend Setup
+
+1. Navigate to the `backend` folder:
+    ```bash
+    cd backend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Configure environment variables in a `.env` file (e.g., MongoDB URI, JWT secret).
+4. Start the backend server:
+    ```bash
+    npm run start:dev
+    ```
+
+##Frontend Setup
+
+1. Navigate to the `frontend` folder:
+    ```bash
+    cd frontend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
 
 
-### For Backend
-Follow the below steps to run the project: 
-- Firstly clone or unzip the project folder.
-* Go to the backend directory by using the following command ``` cd backend```.
-+ Then run `` npm install `` commend to install node dependencies.
-* create a **.env** file in the backend root directory as the same level where the **package.json** is located and keep the following environment variables there: 
-```
-DB_URL = "mongodb+srv://helpyourassistant:pqam0Mwv3Vwv8Off@cluster0.qc3bq.mongodb.net/book-store?retryWrites=true&w=majority&appName=Cluster0"
+##Technologies Used
 
-JWT_SECRET_KEY = 'bc992a20cb6706f741433686be814e3df45e57ea1c2fc85f9dbb0ef7df12308a669bfa7c976368ff32e32f6541480ce9ec1b122242f9b1257ab669026aeaf16'
+Frontend: React, TailwindCSS, Vite.
+Backend: Node.js, Express.js.
+Database: MongoDB.
 
-Note: Please setup mongodb and change the MongoDB url and set your jwt secret key above.
-```
+##Usage
 
-- Finally, to run the project, use ``npm run start:dev`` command.
+1. Start both the backend and frontend servers.
+2. Access the application at `http://localhost:5173` (or the configured port).
+
