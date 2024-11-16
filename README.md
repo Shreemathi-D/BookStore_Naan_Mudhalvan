@@ -4,16 +4,16 @@
 
 ## Features
 
- User authentication and authorization.
- Add, edit, and delete books.
- Ordering books.
- Browse and search for books.
- Responsive and user-friendly design.
+ - User authentication and authorization.
+ - Add, edit, and delete books.
+ - Ordering books.
+ - Browse and search for books.
+ - Responsive and user-friendly design.
 
 ## Prerequisites
 
-[Node.js](https://nodejs.org/)
-[MongoDB](https://www.mongodb.com/)
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
 
 ## Backend Setup
 
@@ -48,9 +48,9 @@
 
 ## Technologies Used
 
-Frontend: React, TailwindCSS, Vite.
-Backend: Node.js, Express.js.
-Database: MongoDB.
+- Frontend: React, TailwindCSS, Vite.
+- Backend: Node.js, Express.js.
+- Database: MongoDB.
 
 ## Usage
 
